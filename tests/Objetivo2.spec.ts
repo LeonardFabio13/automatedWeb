@@ -40,7 +40,7 @@
  ];
 
  for (const selector of iconSelectors) {
-   await expect(page.locator(selector)).toHaveCount(1);
+   await expect(page.locator(selector)).toHaveCount(20);
  }
 });
 
